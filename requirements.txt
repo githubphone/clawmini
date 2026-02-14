@@ -1,0 +1,17 @@
+# Core dependencies
+python-dotenv>=1.0.0
+
+# GUI (built-in tkinter is used, but we specify for clarity)
+# tkinter is part of standard library, but we could add alternatives if needed
+
+# Async utilities
+asyncio-mqtt>=0.12.1 ; python_version >= "3.7"  # For MQTT support if needed
+aiofiles>=23.0.0  # For async file operations
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+
+# Optional: For potential web interface
+# flask>=2.0.0
+# quart>=0.19.0  # Alternative async option
